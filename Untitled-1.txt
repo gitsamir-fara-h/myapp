@@ -1,0 +1,126 @@
+<!-- post fourth -->
+<div class="col-md-4">
+							<div class="post">
+								<div class="table">
+									<tr>
+										<th>
+										<a class="post-img" href="blog-post.html"><img src="{{$fourth_post->image}}" alt=""></a>
+								<a class="post-img" href="blog-post.html"><img src="{{$fourth_post->photo}}" alt=""></a>
+								<a class="post-img" href="blog-post.html"><img src="{{$fourth_post->galery}}" alt=""></a>
+										
+										</th>
+									</tr>
+								</div>
+								<div class="post-body">
+									<div class="post-category">
+										<a href="category.html">{{$fourth_post->category->name}}</a>
+									</div>
+									<h3 class="post-title"><a href="blog-post.html">{{$fourth_post->title}}</a></h3>
+									<h3 class="post-title"><a href="blog-post.html">{{$fourth_post->prix}}</a></h3>
+									<ul class="post-meta">
+										<li><a >  {{ Auth::user()->name }}</a></li>
+										<li>{{$fourth_post->created_at->diffForHumans()}}</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /post -->
+<!-- post third-->
+						<div class="col-md-4">
+							<div class="post">
+								<div class="table">
+									<tr>
+										<th>
+										<a class="post-img" href="blog-post.html"><img src="{{$third_post->image}}" alt=""></a>
+								<a class="post-img" href="blog-post.html"><img src="{{$third_post->photo}}" alt=""></a>
+								<a class="post-img" href="blog-post.html"><img src="{{$third_post->galery}}" alt=""></a>
+										
+										</th>
+									</tr>
+								</div>
+								<div class="post-body">
+									<div class="post-category">
+										<a href="category.html">{{$third_post->category->name}}</a>
+									</div>
+									<h3 class="post-title"><a href="blog-post.html">{{$third_post->title}}</a></h3>
+									<h3 class="post-title"><a href="blog-post.html">{{$third_post->prix}}</a></h3>
+									<ul class="post-meta">
+										<li><a href="author.html">  {{ Auth::user()->name }}</a></li>
+										<li>{{$third_post->created_at->diffForHumans()}}</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /post -->
+
+<!-- post five-->
+<div class="col-md-4">
+							<div class="post">
+								<div class="tablle">
+									<tr>
+										<th>
+										<a class="post-img" href="blog-post.html"><img src="{{$five_post->image}}" alt=""></a>
+								<a class="post-img" href="blog-post.html"><img src="{{$five_post->photo}}" alt=""></a>
+								<a class="post-img" href="blog-post.html"><img src="{{$five_post->galery}}" alt=""></a>
+										
+										</th>
+									</tr>
+								</div>
+								<div class="post-body">
+									<div class="post-category">
+										<a href="category.html">{{$five_post->category->name}}</a>
+									</div>
+									<h3 class="post-title"><a href="blog-post.html">{{$five_post->title}}</a></h3>
+									<h3 class="post-title"><a href="blog-post.html">{{$five_post->prix}}</a></h3>
+									<ul class="post-meta">
+										<li><a href="author.html">  {{ Auth::user()->name }}</a></li>
+										<li>{{$five_post->created_at->diffForHumans()}}</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /post -->
+
+
+
+						<!-- post second -->
+						<div class="col-md-4">
+							<div class="post">
+
+<div class="table">
+	<tr>
+		<th>
+		
+		<a class="post-img" href="blog-post.html"><img src="{{$second_post->image}}"
+								
+								 alt=""></a>
+								 <a class="post-img" href="blog-post.html"><img src="{{$second_post->photo}}"
+								
+								 alt=""></a>
+								 <a class="post-img" href="blog-post.html"><img src="{{$second_post->galery}}"
+								
+								 alt=""></a>
+		</th>
+	</tr>
+</div>
+								
+
+								<div class="post-body">
+
+
+
+									<div class="post-category">
+										<a href="category.html">{{$second_post->category->name}}</a>
+
+									</div>
+									<h3 class="post-title"><a href="blog-post.html">{{$second_post->title}}</a></h3>
+									<h3 class="post-title"><a href="blog-post.html">{{$second_post->prix}}</a></h3>
+
+									<ul class="post-meta">
+										<li><a href="author.html">  {{ Auth::user()->name }}</a></li>
+										<li>{{$second_post->created_at->diffForHumans()}}</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /post -->
